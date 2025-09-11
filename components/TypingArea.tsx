@@ -4,6 +4,7 @@ import { useEffect, useRef, useState } from 'react';
 import { KeyboardEngine } from '../lib/keyboardEngine';
 import { KeymanIntegration } from '../lib/keymanIntegration';
 import { UnicodeHelper } from '../lib/unicodeHelper';
+import { TextNormalizer } from '../lib/textNormalizer';
 
 interface TypingAreaProps {
   layout: string;
@@ -85,9 +86,9 @@ export default function TypingArea({ layout, value, onChange, placeholder }: Typ
   const getFontClass = () => {
     switch (layout) {
       case 'krutidev':
-        return 'krutidev-font text-xl leading-relaxed';
+        return 'krutidev-font text-xl leading-relaxed devanagari-text';
       default:
-        return 'mangal-font text-xl leading-relaxed';
+        return 'mangal-font text-xl leading-relaxed devanagari-text';
     }
   };
 
@@ -96,11 +97,15 @@ export default function TypingArea({ layout, value, onChange, placeholder }: Typ
       <textarea
         ref={textareaRef}
         value={value}
-        onChange={(e) => onChange(e.target.value)}
+        onChange={(e) => {
+          const normalizedText = TextNormalizer.normalizeText(e.target.value);
+          onChange(normalizedText);
+        }}
         placeholder={placeholder}
         className={`w-full h-64 p-4 border border-gray-300 rounded-md resize-none focus:outline-none focus:ring-2 focus:ring-blue-500 ${getFontClass()}`}
         dir="ltr"
         spellCheck={false}
+        style={{ fontKerning: 'normal', textRendering: 'optimizeLegibility' }}
       />
       <div className="absolute top-2 right-2 text-xs text-gray-500 bg-green-100 px-2 py-1 rounded">
         Hindi Mode

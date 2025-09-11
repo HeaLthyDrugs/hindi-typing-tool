@@ -1,4 +1,5 @@
 import mappings from '../mappings.json';
+import { TextNormalizer } from './textNormalizer';
 
 export interface KeyboardMapping {
   name: string;
@@ -59,7 +60,8 @@ export class KeyboardEngine {
         this.lastTypedChars = this.lastTypedChars.slice(-5);
       }
       
-      return char;
+      // Normalize the character before returning
+      return TextNormalizer.normalizeText(char);
     }
 
     return null;

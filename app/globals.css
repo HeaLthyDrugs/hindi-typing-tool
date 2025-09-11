@@ -1,2 +1,63 @@
 @import "tailwindcss";
 
+/* Devanagari Font Definitions */
+@font-face {
+  font-family: 'Mangal';
+  src: local('Mangal'), local('Mangal Regular');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Krutidev';
+  src: local('Krutidev 010'), local('Krutidev010');
+  font-display: swap;
+}
+
+/* Font Classes */
+.mangal-font {
+  font-family: 'Mangal', 'Noto Sans Devanagari', 'Arial Unicode MS', sans-serif;
+}
+
+.krutidev-font {
+  font-family: 'Krutidev', 'Krutidev 010', monospace;
+}
+
+/* Devanagari Text Rendering */
+.devanagari-text {
+  /* Enable proper text shaping for complex scripts */
+  font-feature-settings: 'kern' 1, 'liga' 1, 'clig' 1, 'calt' 1;
+  
+  /* Enable OpenType features for Devanagari */
+  font-variant-ligatures: common-ligatures contextual;
+  
+  /* Proper text rendering */
+  text-rendering: optimizeLegibility;
+  
+  /* Prevent text breaking in the middle of conjuncts */
+  word-break: keep-all;
+  
+  /* Better line height for Devanagari */
+  line-height: 1.6;
+  
+  /* Ensure proper Unicode normalization */
+  unicode-bidi: normal;
+  
+  /* Better letter spacing for complex scripts */
+  letter-spacing: 0.01em;
+}
+
+/* Fix for character joining issues */
+.devanagari-text::before {
+  content: '';
+  display: inline-block;
+  width: 0;
+  height: 0;
+}
+
+/* Ensure proper rendering in different browsers */
+.devanagari-text {
+  -webkit-font-feature-settings: 'kern' 1, 'liga' 1, 'clig' 1, 'calt' 1;
+  -moz-font-feature-settings: 'kern' 1, 'liga' 1, 'clig' 1, 'calt' 1;
+  -ms-font-feature-settings: 'kern' 1, 'liga' 1, 'clig' 1, 'calt' 1;
+}
+
