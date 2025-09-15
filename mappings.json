@@ -24,8 +24,8 @@
         "shift": "ऊ"
       },
       "KeyY": {
-        "default": "व",
-        "shift": "ऴ"
+        "default": "ब",
+        "shift": "भ"
       },
       "KeyU": {
         "default": "ह",
@@ -80,36 +80,36 @@
         "shift": "थ"
       },
       "KeyZ": {
-        "default": "ए",
-        "shift": "ऎ"
+        "default": "ें",
+        "shift": "ऐं"
       },
       "KeyX": {
         "default": "ं",
         "shift": "ँ"
       },
       "KeyC": {
-        "default": "ल",
-        "shift": "ळ"
-      },
-      "KeyV": {
-        "default": "स",
-        "shift": "श"
-      },
-      "KeyB": {
-        "default": "ब",
-        "shift": "भ"
-      },
-      "KeyN": {
         "default": "म",
         "shift": "ण"
       },
-      "KeyM": {
+      "KeyV": {
         "default": "न",
         "shift": "ऩ"
       },
+      "KeyB": {
+        "default": "व",
+        "shift": "ऴ"
+      },
+      "KeyN": {
+        "default": "ल",
+        "shift": "ळ"
+      },
+      "KeyM": {
+        "default": "स",
+        "shift": "श"
+      },
       "Backquote": {
-        "default": "ऑ",
-        "shift": "ओ"
+        "default": "ॊ",
+        "shift": "ऒ"
       },
       "BracketLeft": {
         "default": "ड",
@@ -193,11 +193,64 @@
       }
     },
     "combinations": {},
-    "altCodes": {}
+    "altCodes": {
+      "Alt+033": "!",
+      "Alt+034": "\"",
+      "Alt+035": "#",
+      "Alt+036": "$",
+      "Alt+037": "%",
+      "Alt+038": "&",
+      "Alt+039": "'",
+      "Alt+040": "(",
+      "Alt+041": ")",
+      "Alt+042": "*",
+      "Alt+043": "+",
+      "Alt+044": ",",
+      "Alt+045": "-",
+      "Alt+046": ".",
+      "Alt+047": "/",
+      "Alt+058": ":",
+      "Alt+059": ";",
+      "Alt+060": "<",
+      "Alt+061": "=",
+      "Alt+062": ">",
+      "Alt+063": "?",
+      "Alt+064": "@",
+      "Alt+091": "[",
+      "Alt+092": "\\",
+      "Alt+093": "]",
+      "Alt+094": "^",
+      "Alt+095": "_",
+      "Alt+123": "{",
+      "Alt+124": "|",
+      "Alt+125": "}",
+      "Alt+0145": "'",
+      "Alt+0146": "'",
+      "Alt+0147": "",
+      "Alt+0148": "",
+      "Alt+0149": "•",
+      "Alt+0150": "–",
+      "Alt+0151": "—",
+      "Alt+0152": "˜",
+      "Alt+0153": "™",
+      "Alt+0154": "š",
+      "Alt+0155": "›",
+      "Alt+0156": "œ",
+      "Alt+0169": "©",
+      "Alt+0184": "¸",
+      "Alt+0185": "¹",
+      "Alt+0189": "½",
+      "Alt+0190": "¾",
+      "Alt+0215": "×",
+      "Alt+0216": "Ø",
+      "Alt+0222": "Þ",
+      "Alt+0223": "ß",
+      "Alt+0247": "÷"
+    }
   },
   "krutidev": {
     "name": "Krutidev 010",
-    "description": "Keyboard mappings for Krutidev 010 font layout, used for Hindi typing with Krutidev font.",
+    "description": "Keyboard mappings for Krutidev 010 font layout, based on the provided keyboard image.",
     "keys": {
       "Backquote": {
         "default": "ृ",
@@ -221,19 +274,19 @@
       },
       "Digit5": {
         "default": "5",
-        "shift": "ः"
+        "shift": ":"
       },
       "Digit6": {
         "default": "6",
-        "shift": "'"
+        "shift": "‘"
       },
       "Digit7": {
         "default": "7",
-        "shift": "-"
+        "shift": "–"
       },
       "Digit8": {
         "default": "8",
-        "shift": "'"
+        "shift": "‘"
       },
       "Digit9": {
         "default": "9",
@@ -241,15 +294,15 @@
       },
       "Digit0": {
         "default": "0",
-        "shift": "द्ध"
+        "shift": ")"
       },
       "Minus": {
         "default": ".",
         "shift": "ऋ"
       },
       "Equal": {
-        "default": "ं",
-        "shift": "त्र"
+        "default": "त्र",
+        "shift": "."
       },
       "KeyQ": {
         "default": "ु",
@@ -261,265 +314,279 @@
       },
       "KeyE": {
         "default": "म",
-        "shift": "म्"
+        "shift": "आ"
       },
       "KeyR": {
         "default": "त",
-        "shift": "त्"
+        "shift": "ई"
       },
       "KeyT": {
         "default": "ज",
-        "shift": "ज्"
+        "shift": "ऊ"
       },
       "KeyY": {
         "default": "ल",
-        "shift": "ल्"
+        "shift": "भ"
       },
       "KeyU": {
         "default": "न",
-        "shift": "न्"
+        "shift": "ङ"
       },
       "KeyI": {
         "default": "प",
-        "shift": "प्"
+        "shift": "घ"
       },
       "KeyO": {
         "default": "व",
-        "shift": "व्"
+        "shift": "ध"
       },
       "KeyP": {
         "default": "च",
-        "shift": "च्"
+        "shift": "झ"
       },
       "BracketLeft": {
-        "default": "ख्",
-        "shift": "क्ष्"
+        "default": "ड",
+        "shift": "ढ"
       },
       "BracketRight": {
-        "default": ",",
-        "shift": "द्व"
+        "default": "़",
+        "shift": "ञ"
       },
       "Backslash": {
-        "default": "?",
-        "shift": "द्य"
+        "default": "\\",
+        "shift": "|"
       },
       "KeyA": {
-        "default": "ं",
-        "shift": "।"
+        "default": "ो",
+        "shift": "ओ"
       },
       "KeyS": {
-        "default": "ॆ",
-        "shift": "ै"
+        "default": "े",
+        "shift": "ए"
       },
       "KeyD": {
-        "default": "क",
-        "shift": "क्"
+        "default": "्",
+        "shift": "अ"
       },
       "KeyF": {
         "default": "ि",
-        "shift": "थ्"
+        "shift": "इ"
       },
       "KeyG": {
-        "default": "ह",
-        "shift": "ळ"
+        "default": "ु",
+        "shift": "उ"
       },
       "KeyH": {
-        "default": "ी",
-        "shift": "भ्"
+        "default": "प",
+        "shift": "फ"
       },
       "KeyJ": {
         "default": "र",
-        "shift": "श्र"
+        "shift": "र"
       },
       "KeyK": {
-        "default": "ा",
-        "shift": "ज्ञ"
+        "default": "क",
+        "shift": "ख"
       },
       "KeyL": {
-        "default": "स",
-        "shift": "स्"
+        "default": "त",
+        "shift": "थ"
       },
       "Semicolon": {
-        "default": "य",
-        "shift": "रू"
-      },
-      "Quote": {
-        "default": "श्",
-        "shift": "ष्"
-      },
-      "KeyZ": {
-        "default": "्",
-        "shift": "र्"
-      },
-      "KeyX": {
-        "default": "ग",
-        "shift": "ग्"
-      },
-      "KeyC": {
-        "default": "ब",
-        "shift": "ब्"
-      },
-      "KeyV": {
-        "default": "अ",
-        "shift": "ट"
-      },
-      "KeyB": {
-        "default": "इ",
-        "shift": "ठ"
-      },
-      "KeyN": {
-        "default": "द",
+        "default": "च",
         "shift": "छ"
       },
+      "Quote": {
+        "default": "ट",
+        "shift": "ठ"
+      },
+      "KeyZ": {
+        "default": "ं",
+        "shift": "ः"
+      },
+      "KeyX": {
+        "default": "ँ",
+        "shift": "ॐ"
+      },
+      "KeyC": {
+        "default": "म",
+        "shift": "ण"
+      },
+      "KeyV": {
+        "default": "न",
+        "shift": "ऩ"
+      },
+      "KeyB": {
+        "default": "व",
+        "shift": "ऴ"
+      },
+      "KeyN": {
+        "default": "ल",
+        "shift": "ळ"
+      },
       "KeyM": {
-        "default": "उ",
-        "shift": "ड"
+        "default": "स",
+        "shift": "श"
       },
       "Comma": {
-        "default": "ए",
-        "shift": "ढ"
+        "default": ",",
+        "shift": "ष"
       },
       "Period": {
-        "default": "ण्",
-        "shift": "झ"
+        "default": "।",
+        "shift": "."
       },
       "Slash": {
-        "default": "ध्",
-        "shift": "घ्"
-      },
-      "Numpad0": {
-        "default": "0",
-        "shift": "०"
-      },
-      "Numpad1": {
-        "default": "1",
-        "shift": "१"
-      },
-      "Numpad2": {
-        "default": "2",
-        "shift": "२"
-      },
-      "Numpad3": {
-        "default": "3",
-        "shift": "३"
-      },
-      "Numpad4": {
-        "default": "4",
-        "shift": "४"
-      },
-      "Numpad5": {
-        "default": "5",
-        "shift": "५"
-      },
-      "Numpad6": {
-        "default": "6",
-        "shift": "६"
-      },
-      "Numpad7": {
-        "default": "7",
-        "shift": "७"
-      },
-      "Numpad8": {
-        "default": "8",
-        "shift": "८"
-      },
-      "Numpad9": {
-        "default": "9",
-        "shift": "९"
-      },
-      "NumpadAdd": {
-        "default": "+",
-        "shift": "+"
-      },
-      "NumpadSubtract": {
-        "default": "-",
-        "shift": "-"
-      },
-      "NumpadMultiply": {
-        "default": "*",
-        "shift": "*"
-      },
-      "NumpadDivide": {
-        "default": "/",
-        "shift": "/"
-      },
-      "NumpadDecimal": {
-        "default": ".",
-        "shift": "."
+        "default": "य",
+        "shift": "?"
       }
     },
-    "combinations": {},
+    "combinations": {
+      "shift_space": "‍",
+      "ctrl_shift_space": "‌"
+    },
+    "specialCharacters": {
+      "conjuncts": {
+        "क्ष": [
+          "क",
+          "्",
+          "ष"
+        ],
+        "त्र": [
+          "त",
+          "्",
+          "र"
+        ],
+        "ज्ञ": [
+          "ज",
+          "्",
+          "ञ"
+        ],
+        "श्र": [
+          "श",
+          "्",
+          "र"
+        ]
+      },
+      "nuktas": {
+        "क़": [
+          "क",
+          "़"
+        ],
+        "ख़": [
+          "ख",
+          "़"
+        ],
+        "ग़": [
+          "ग",
+          "़"
+        ],
+        "ज़": [
+          "ज",
+          "़"
+        ],
+        "ड़": [
+          "ड",
+          "़"
+        ],
+        "ढ़": [
+          "ढ",
+          "़"
+        ],
+        "फ़": [
+          "फ",
+          "़"
+        ],
+        "य़": [
+          "य",
+          "़"
+        ]
+      }
+    },
     "altCodes": {
-      "Alt033": "!",
-      "Alt034": "\"",
-      "Alt035": "रु",
-      "Alt036": "$",
-      "Alt037": "%",
-      "Alt038": "&",
-      "Alt039": "'",
-      "Alt040": "(",
-      "Alt041": ")",
-      "Alt060": "<",
-      "Alt062": ">",
-      "Alt075": "K",
-      "Alt076": "L",
-      "Alt077": "M",
-      "Alt078": "N",
-      "Alt123": "{",
-      "Alt125": "}",
-      "Alt131": "१",
-      "Alt132": "२",
-      "Alt133": "३",
-      "Alt134": "४",
-      "Alt135": "५",
-      "Alt136": "६",
-      "Alt137": "७",
-      "Alt138": "८",
-      "Alt139": "९",
-      "Alt140": "०",
-      "Alt145": "'",
-      "Alt146": "'",
-      "Alt147": "\"",
-      "Alt148": "\"",
-      "Alt161": "ँ",
-      "Alt163": "ख्",
-      "Alt165": "ञ",
-      "Alt170": "ट्र",
-      "Alt171": "त्र्",
-      "Alt179": "ङ",
-      "Alt180": "ञ",
-      "Alt182": "फ्",
-      "Alt184": "य्",
-      "Alt186": "ह",
-      "Alt188": "(",
-      "Alt189": ")",
-      "Alt197": "ऊ",
-      "Alt204": "द्द",
-      "Alt205": "ट्ट",
-      "Alt206": "ट्ठ",
-      "Alt207": "ड्ड",
-      "Alt212": "ड्ढ",
-      "Alt216": "क्र",
-      "Alt217": "त्",
-      "Alt221": "फ्र",
-      "Alt224": "ह्र",
-      "Alt225": "ह्य",
-      "Alt226": "ह्व",
-      "Alt227": "ह्म",
-      "Alt228": "क्त",
-      "Alt233": "न्न",
-      "Alt234": "ट्ट",
-      "Alt235": "ट्ठ",
-      "Alt236": "ड्ड",
-      "Alt237": "द्द",
-      "Alt239": "ड्ढ",
-      "Alt240": "ठ्ठ",
-      "Alt241": "०",
-      "Alt243": "स्त्र",
-      "Alt244": "क्क",
-      "Alt246": "द्भ",
-      "Alt248": "{",
-      "Alt249": "द्म"
+      "Alt0161": "ँ",
+      "Alt0162": "ं",
+      "Alt0163": "ः",
+      "Alt0164": "अ",
+      "Alt0165": "आ",
+      "Alt0166": "इ",
+      "Alt0167": "ई",
+      "Alt0168": "उ",
+      "Alt0169": "ऊ",
+      "Alt0170": "ऋ",
+      "Alt0171": "ऌ",
+      "Alt0172": "ऍ",
+      "Alt0173": "ऎ",
+      "Alt0174": "ए",
+      "Alt0175": "ऐ",
+      "Alt0176": "ऑ",
+      "Alt0177": "ऒ",
+      "Alt0178": "ओ",
+      "Alt0179": "औ",
+      "Alt0180": "क",
+      "Alt0181": "ख",
+      "Alt0182": "ग",
+      "Alt0183": "घ",
+      "Alt0184": "ङ",
+      "Alt0185": "च",
+      "Alt0186": "छ",
+      "Alt0187": "ज",
+      "Alt0188": "झ",
+      "Alt0189": "ञ",
+      "Alt0190": "ट",
+      "Alt0191": "ठ",
+      "Alt0192": "ड",
+      "Alt0193": "ढ",
+      "Alt0194": "ण",
+      "Alt0195": "त",
+      "Alt0196": "थ",
+      "Alt0197": "द",
+      "Alt0198": "ध",
+      "Alt0199": "न",
+      "Alt0200": "प",
+      "Alt0201": "फ",
+      "Alt0202": "ब",
+      "Alt0203": "भ",
+      "Alt0204": "म",
+      "Alt0205": "य",
+      "Alt0206": "र",
+      "Alt0207": "ल",
+      "Alt0208": "व",
+      "Alt0209": "श",
+      "Alt0210": "ष",
+      "Alt0211": "स",
+      "Alt0212": "ह",
+      "Alt0213": "़",
+      "Alt0214": "ऽ",
+      "Alt0215": "ा",
+      "Alt0216": "ि",
+      "Alt0217": "ी",
+      "Alt0218": "ु",
+      "Alt0219": "ू",
+      "Alt0220": "ृ",
+      "Alt0221": "ॄ",
+      "Alt0222": "ॅ",
+      "Alt0223": "ॆ",
+      "Alt0224": "े",
+      "Alt0225": "ै",
+      "Alt0226": "ॉ",
+      "Alt0227": "ॊ",
+      "Alt0228": "ो",
+      "Alt0229": "ौ",
+      "Alt0230": "्",
+      "Alt0231": "।",
+      "Alt0232": "॥",
+      "Alt0233": "०",
+      "Alt0234": "१",
+      "Alt0235": "२",
+      "Alt0236": "३",
+      "Alt0237": "४",
+      "Alt0238": "५",
+      "Alt0239": "६",
+      "Alt0240": "७",
+      "Alt0241": "८",
+      "Alt0242": "९",
+      "Alt0243": "ॐ"
     }
   },
   "remingtonGail": {
@@ -571,7 +638,7 @@
         "shift": "।"
       },
       "KeyS": {
-        "default": "ॆ",
+        "default": "े",
         "shift": "ै"
       },
       "KeyD": {
@@ -631,8 +698,8 @@
         "shift": "ड"
       },
       "Backquote": {
-        "default": "़",
-        "shift": "द्य"
+        "default": "`",
+        "shift": "़"
       },
       "BracketLeft": {
         "default": "ख्",
@@ -643,12 +710,12 @@
         "shift": "द्व"
       },
       "Backslash": {
-        "default": "(",
-        "shift": ")"
+        "default": "?",
+        "shift": "द्य"
       },
       "Semicolon": {
         "default": "य",
-        "shift": "रू"
+        "shift": "रु"
       },
       "Quote": {
         "default": "श्",
@@ -667,44 +734,52 @@
         "shift": "घ्"
       },
       "Digit1": {
-        "default": "१",
+        "default": "1",
         "shift": "!"
       },
       "Digit2": {
-        "default": "२",
-        "shift": "@"
+        "default": "2",
+        "shift": "/"
       },
       "Digit3": {
-        "default": "३",
-        "shift": "#"
+        "default": "3",
+        "shift": "रु"
       },
       "Digit4": {
-        "default": "४",
-        "shift": "$"
+        "default": "4",
+        "shift": "+"
       },
       "Digit5": {
-        "default": "५",
-        "shift": "%"
+        "default": "5",
+        "shift": ":"
       },
       "Digit6": {
-        "default": "६",
-        "shift": "^"
+        "default": "6",
+        "shift": "'"
       },
       "Digit7": {
-        "default": "७",
-        "shift": "&"
+        "default": "7",
+        "shift": "-"
       },
       "Digit8": {
-        "default": "८",
-        "shift": "*"
+        "default": "8",
+        "shift": "'"
       },
       "Digit9": {
-        "default": "९",
-        "shift": "("
+        "default": "9",
+        "shift": ";"
       },
       "Digit0": {
-        "default": "०",
-        "shift": ")"
+        "default": "0",
+        "shift": "द्ध"
+      },
+      "Minus": {
+        "default": ".",
+        "shift": "त्र"
+      },
+      "Equal": {
+        "default": "त्र",
+        "shift": "ऋ"
       }
     },
     "combinations": {
@@ -715,28 +790,28 @@
       "शr": "श्र"
     },
     "altCodes": {
-      "Alt033": "!",
-      "Alt0123": "{",
-      "Alt0124": "|",
-      "Alt0125": "}",
-      "Alt0145": "'",
-      "Alt0146": "'",
-      "Alt0147": "\"",
-      "Alt0148": "\"",
-      "Alt0149": "•",
-      "Alt0150": "–",
-      "Alt0151": "—",
-      "Alt0152": "˜",
-      "Alt0153": "™",
-      "Alt0154": "š",
-      "Alt0155": "›",
-      "Alt0156": "œ",
-      "Alt0169": "©",
-      "Alt0184": "¸",
-      "Alt0185": "¹",
-      "Alt0189": "½",
-      "Alt0190": "¾",
-      "Alt0215": "×"
+      "Alt+033": "!",
+      "Alt+0123": "{",
+      "Alt+0124": "|",
+      "Alt+0125": "}",
+      "Alt+0145": "'",
+      "Alt+0146": "'",
+      "Alt+0147": "\"",
+      "Alt+0148": "\"",
+      "Alt+0149": "•",
+      "Alt+0150": "–",
+      "Alt+0151": "—",
+      "Alt+0152": "˜",
+      "Alt+0153": "™",
+      "Alt+0154": "š",
+      "Alt+0155": "›",
+      "Alt+0156": "œ",
+      "Alt+0169": "©",
+      "Alt+0184": "¸",
+      "Alt+0185": "¹",
+      "Alt+0189": "½",
+      "Alt+0190": "¾",
+      "Alt+0215": "×"
     }
   },
   "remingtonCbi": {
@@ -788,7 +863,7 @@
         "shift": "।"
       },
       "KeyS": {
-        "default": "ॆ",
+        "default": "े",
         "shift": "ै"
       },
       "KeyD": {
@@ -797,7 +872,7 @@
       },
       "KeyF": {
         "default": "ि",
-        "shift": "थ्"
+        "shift": "थ"
       },
       "KeyG": {
         "default": "ह",
@@ -848,80 +923,88 @@
         "shift": "ड"
       },
       "Backquote": {
-        "default": "़",
-        "shift": "द्य"
+        "default": "`",
+        "shift": "~"
       },
       "BracketLeft": {
         "default": "ख्",
-        "shift": "क्ष्"
+        "shift": "क्ष"
       },
       "BracketRight": {
         "default": ",",
         "shift": "द्व"
       },
       "Backslash": {
-        "default": "(",
-        "shift": ")"
+        "default": "घ",
+        "shift": "?"
       },
       "Semicolon": {
         "default": "य",
-        "shift": "रू"
+        "shift": "रु"
       },
       "Quote": {
-        "default": "श्",
-        "shift": "ष्"
+        "default": "श",
+        "shift": "श्"
       },
       "Comma": {
-        "default": "ए",
+        "default": "ढ",
         "shift": "ढ"
       },
       "Period": {
-        "default": "ण्",
+        "default": "ण",
         "shift": "झ"
       },
       "Slash": {
-        "default": "ध्",
+        "default": "ध",
         "shift": "घ्"
       },
       "Digit1": {
-        "default": "१",
+        "default": "1",
         "shift": "!"
       },
       "Digit2": {
-        "default": "२",
+        "default": "2",
         "shift": "@"
       },
       "Digit3": {
-        "default": "३",
+        "default": "3",
         "shift": "#"
       },
       "Digit4": {
-        "default": "४",
+        "default": "4",
         "shift": "$"
       },
       "Digit5": {
-        "default": "५",
+        "default": "5",
         "shift": "%"
       },
       "Digit6": {
-        "default": "६",
+        "default": "6",
         "shift": "^"
       },
       "Digit7": {
-        "default": "७",
+        "default": "7",
         "shift": "&"
       },
       "Digit8": {
-        "default": "८",
+        "default": "8",
         "shift": "*"
       },
       "Digit9": {
-        "default": "९",
+        "default": "9",
         "shift": "("
       },
       "Digit0": {
-        "default": "०",
+        "default": "0",
         "shift": ")"
+      },
+      "Minus": {
+        "default": "-",
+        "shift": "ऋ"
+      },
+      "Equal": {
+        "default": "=",
+        "shift": "त्र"
       }
     },
     "combinations": {
@@ -932,28 +1015,28 @@
       "शr": "श्र"
     },
     "altCodes": {
-      "Alt033": "!",
-      "Alt0123": "{",
-      "Alt0124": "|",
-      "Alt0125": "}",
-      "Alt0145": "'",
-      "Alt0146": "'",
-      "Alt0147": "\"",
-      "Alt0148": "\"",
-      "Alt0149": "•",
-      "Alt0150": "–",
-      "Alt0151": "—",
-      "Alt0152": "˜",
-      "Alt0153": "™",
-      "Alt0154": "š",
-      "Alt0155": "›",
-      "Alt0156": "œ",
-      "Alt0169": "©",
-      "Alt0184": "¸",
-      "Alt0185": "¹",
-      "Alt0189": "½",
-      "Alt0190": "¾",
-      "Alt0215": "×"
+      "Alt+033": "!",
+      "Alt+0123": "{",
+      "Alt+0124": "|",
+      "Alt+0125": "}",
+      "Alt+0145": "'",
+      "Alt+0146": "'",
+      "Alt+0147": "\"",
+      "Alt+0148": "\"",
+      "Alt+0149": "•",
+      "Alt+0150": "–",
+      "Alt+0151": "—",
+      "Alt+0152": "˜",
+      "Alt+0153": "™",
+      "Alt+0154": "š",
+      "Alt+0155": "›",
+      "Alt+0156": "œ",
+      "Alt+0169": "©",
+      "Alt+0184": "¸",
+      "Alt+0185": "¹",
+      "Alt+0189": "½",
+      "Alt+0190": "¾",
+      "Alt+0215": "×"
     }
   }
 }

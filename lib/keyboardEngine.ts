@@ -32,10 +32,18 @@ export class KeyboardEngine {
     this.isShiftPressed = event.shiftKey;
     this.isAltPressed = event.altKey;
 
+    // Handle special keys that should reset combination buffer
+    if (event.code === 'Space' || event.code === 'Enter' || event.code === 'Backspace') {
+      this.resetCombinationBuffer();
+      if (event.code === 'Space') return ' ';
+      if (event.code === 'Enter') return '\n';
+      return null; // Let backspace be handled normally
+    }
+
     // Handle Alt codes
     if (this.isAltPressed && event.code.startsWith('Digit')) {
       const altCode = `Alt${event.code.replace('Digit', '0')}`;
-      if (mapping.altCodes[altCode]) {
+      if (mapping.altCodes && mapping.altCodes[altCode]) {
         return mapping.altCodes[altCode];
       }
     }
@@ -45,12 +53,16 @@ export class KeyboardEngine {
     if (keyMapping) {
       const char = this.isShiftPressed ? keyMapping.shift : keyMapping.default;
       
-      // Check for combinations
-      const potentialCombination = this.lastTypedChars + char;
-      for (const [combo, result] of Object.entries(mapping.combinations)) {
-        if (potentialCombination.endsWith(combo)) {
-          this.lastTypedChars = potentialCombination.slice(0, -combo.length) + result;
-          return result;
+      if (!char) return null;
+      
+      // Check for combinations if they exist
+      if (mapping.combinations && Object.keys(mapping.combinations).length > 0) {
+        const potentialCombination = this.lastTypedChars + char;
+        for (const [combo, result] of Object.entries(mapping.combinations)) {
+          if (potentialCombination.endsWith(combo)) {
+            this.lastTypedChars = potentialCombination.slice(0, -combo.length) + result;
+            return result;
+          }
         }
       }
       

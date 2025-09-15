@@ -22,9 +22,14 @@ export default function KeyboardLayout({ currentLayout }: KeyboardLayoutProps) {
 
   const getKeyLabel = (keyCode: string) => {
     const keyMapping = mapping.keys[keyCode as keyof typeof mapping.keys];
-    if (!keyMapping) return keyCode.replace('Key', '').replace('Digit', '');
+    if (!keyMapping) {
+      // Handle special keys that might not be in mapping
+      const baseKey = keyCode.replace('Key', '').replace('Digit', '');
+      return baseKey;
+    }
     
-    return showShift ? keyMapping.shift : keyMapping.default;
+    const char = showShift ? keyMapping.shift : keyMapping.default;
+    return char || keyCode.replace('Key', '').replace('Digit', '');
   };
 
   const getKeyDisplay = (keyCode: string) => {
@@ -69,7 +74,7 @@ export default function KeyboardLayout({ currentLayout }: KeyboardLayoutProps) {
         ))}
       </div>
       
-      {Object.keys(mapping.combinations).length > 0 && (
+      {mapping.combinations && Object.keys(mapping.combinations).length > 0 && (
         <div className="mt-4">
           <h4 className="text-sm font-semibold mb-2">Key Combinations:</h4>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-2 text-xs">

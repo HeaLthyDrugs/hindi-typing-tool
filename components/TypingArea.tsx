@@ -37,8 +37,11 @@ export default function TypingArea({ layout, value, onChange, placeholder }: Typ
     // Update keyboard layout
     keyboardEngineRef.current.setLayout(layout);
     
+    // Always try to set Keyman keyboard, but don't block if it fails
     if (isKeymanReady) {
-      keymanRef.current.setKeyboard(layout);
+      keymanRef.current.setKeyboard(layout).catch(error => {
+        console.warn('Keyman keyboard switch failed, using fallback:', error);
+      });
     }
   }, [layout, isKeymanReady]);
 
